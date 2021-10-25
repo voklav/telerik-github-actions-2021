@@ -23,7 +23,7 @@ jobs:
     - name: Style with pycodestyle
       run: |
         pycodestyle *.py        
-     - name: Build container
+    - name: Build container
       run: |
         echo "Building a container image..."
         sleep 30											  
